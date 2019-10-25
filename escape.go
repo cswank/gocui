@@ -227,7 +227,6 @@ func (ei *escapeInterpreter) output256() error {
 			return errCSIParseError
 		}
 	}
-
 	return nil
 }
 
