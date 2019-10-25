@@ -26,7 +26,8 @@ const (
 
 // Text style attributes.
 const (
-	AttrBold      Attribute = Attribute(termbox.AttrBold)
-	AttrUnderline           = Attribute(termbox.AttrUnderline)
-	AttrReverse             = Attribute(termbox.AttrReverse)
+	AttrBold          Attribute = Attribute(termbox.AttrBold)
+	AttrUnderline               = Attribute(termbox.AttrUnderline)
+	AttrReverse                 = Attribute(termbox.AttrReverse)
+	AttrStrikeThrough           = Attribute(9)
 )

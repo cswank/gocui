@@ -218,6 +218,8 @@ func (ei *escapeInterpreter) output256() error {
 					ei.curFgColor |= AttrUnderline
 				case p == 7:
 					ei.curFgColor |= AttrReverse
+				case p == 9:
+					ei.curFgColor |= AttrStrikeThrough
 
 				}
 			}
